@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Gestion du Réseau de Véhicules</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #003d80;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .feature {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">Two2Four Véhicules en libre service</h1>
+    </header>
+    <nav style="text-align: right;">
+        <a href="deconnexion" class="option">Accueil</a>
+        <a href="Stations_Two2Four" class="option">Stations</a>
+        <a href="connexion" style="text-align: right;">Connexion</a>
+    </nav>
+    <div class="container">
+        <h2>Découvrez nos services</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Liste des Stations</h3>
+                <p>Accédez à la liste complète des stations dans les villes de votre choix.</p>
+            </div>
+            <div class="feature">
+                <h3>Bornes</h3>
+                <p>Consultez toutes les bornes</p>
+            </div>
+            <div class="feature">
+                <h3>Véhicules</h3>
+                <p>Consultez les véhicules à votre disposition en temps réel.</p>
+            </div>
+            <div class="feature">
+                <h3>Réservations</h3>
+                <p>Réservez un véhicule ou annulez vos réservations à tout moment.</p>
+            </div>
+            <div class="feature">
+                <h3>Signalements</h3>
+                <p>Signalez facilement un véhicule hors service pour améliorer le service.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
